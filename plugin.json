@@ -1,0 +1,19 @@
+{
+    "id": "randomWallpaperDaemon",
+    "name": "Random Wallpaper Daemon",
+    "description": "Selects a random wallpaper when DMS starts",
+    "version": "1.0.0",
+    "author": "Ishaan",
+    "type": "daemon",
+    "capabilities": [
+        "wallpaper",
+        "daemon"
+    ],
+    "component": "./RandomWallpaperDaemon.qml",
+    "icon": "wallpaper",
+    "settings": "./RandomWallpaperSettings.qml",
+    "permissions": [
+        "settings_read",
+        "settings_write"
+    ]
+}
